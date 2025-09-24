@@ -10,6 +10,7 @@ import {
   faBriefcase,
 } from "@fortawesome/free-solid-svg-icons";
 import ConfirmDialog from "./ConfirmDialog.jsx";
+import Password from "antd/es/input/Password.js";
 
 const AddEmployee = () => {
   const navigate = useNavigate();
@@ -25,6 +26,7 @@ const AddEmployee = () => {
     user: "",
     type: "",
     email: "",
+    password:"123"
   });
 
   const [showConfirm, setShowConfirm] = useState(false);

@@ -56,7 +56,7 @@ const EditEmployee = () => {
         employee
       );
       setShowConfirm(false);
-      navigate(`/employee/${employeeId}`);
+      navigate(`/Allemployee/Details/${employeeId}`);
     } catch (err) {
       setShowConfirm(false);
       alert("Cập nhật thất bại!");
