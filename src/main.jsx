@@ -10,6 +10,11 @@ import Payroll from './components/Payroll.jsx'
 import EmployeeDetails from './components/EmployeeDetails.jsx'
 import EditEmployee from './components/EditEmployee.jsx'
 import AddEmployee from './components/AddEmployee.jsx'
+import Jobs from './components/Jobs.jsx'
+import Candidates from './components/Candidates.jsx'
+import Setting from './components/Setting.jsx'
+import Leaves from './components/Leaves.jsx'
+import Holidays from './components/Holidays.jsx'
 createRoot(document.getElementById('root')).render(
   
     <BrowserRouter>
@@ -25,6 +30,12 @@ createRoot(document.getElementById('root')).render(
         <Route path='/AllDepartment' element={<AllDepartment/>}/>
         <Route path='/Attendance' element={<Attendance/>}/>
         <Route path='/Payroll' element={<Payroll/>}/>
+        <Route path='/Jobs' element={<Jobs/>}/>
+        <Route path='/Candidates' element={<Candidates/>}/>
+        <Route path='/Leaves' element={<Leaves/>}/>
+         <Route path='/Holidays' element={<Holidays/>}/>
+        <Route path='/Setting' element={<Setting/>}/>
+      
 
       </Routes>
     </BrowserRouter>
